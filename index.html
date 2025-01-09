@@ -1,0 +1,362 @@
+<html>
+  <head>
+    <style type="text/css">
+      *{
+      margin:0;
+      padding:0;
+      }
+      .main_div {
+      border:2px solid rd;
+      }
+      #ring_1 {
+      width:90px;
+      height:90px;
+      border-radius:50px;
+      margin:300px 0 0 10px;
+      box-shadow:0 0 1px 8px #000;
+      }
+      .gola_1 {
+      width:20px;
+      height:20px;
+      background-color:green;
+      border-radius:10px;
+      margin:-55px 0 0 45px;
+      }
+      .tly-1 {
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 10px;
+      }
+      .tly-2 {
+      width:90px;
+      box-shadow:0 0 1px 1px black;
+      margin:-9px 0 0 10px;
+      transform:rotate(30deg);
+      }
+      .tly-3 {
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 10px;
+      transform:rotate(155deg);
+      }
+      .tly-4{
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 10px;
+      transform:rotate(60deg);
+      }
+      .tly-5{
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 10px;
+      transform:rotate(130deg);
+      }
+      .tly-6{
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 10px;
+      transform:rotate(80deg);
+      }
+      .tly-7 {
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 10px;
+      transform:rotatez(110deg);
+      }
+      .s-stays{
+      width:90px;
+      height:6px;
+      background:#cc0000;
+      transform:rotate(120deg);
+      margin:-60px 0 0 30px ;
+      }
+      .chain-stays{
+      width:70px;
+      height:6px;
+      background:#cc0000;
+      margin:40px 0 0 50px ;
+      transform:rotate(12deg);
+      }
+      .sheet-tube {
+      width:120px;
+      height:6px;
+      border-radius:50px;
+      background:#cc0000;
+      transform:rotate(75deg);
+      margin:-50px 0 0 47px;
+      }
+      .sheet-tube-small {
+      width:20px;
+      height:6px;
+      position:absolute;
+      border-radius:50px;
+      background:#ff0;
+      transform:rotate(75deg);
+      margin:-62px 0 0 82px;
+      }
+      #drm {
+      width:40px;
+      height:40px;
+      border-radius:50px;
+      box-shadow:0 0 1px 4px black;
+      margin:25px 0 0 95px;
+      position:relative;
+      }
+      .main-tl{
+      width:20px;
+      height:20px;
+      background:#cccccc;
+      box-shadow:0 0 1px 4px gray;
+      margin:-31px 0 0 105px ;
+      border-radius:50px;
+      position:relative;
+      }
+      .tl1 {
+      width:40px;
+      box-shadow:0 0 1px 2px #999;
+      margin:-9px 0 0 95px;
+      position:absolute;
+      }
+      .tl2{
+      width:40px;
+      box-shadow:0 0 1px 2px #999;
+      margin:-9px 0 0 95px;
+      position:absolute;
+      transform:rotate(70deg);
+     }
+      .tl3{
+      width:40px;
+      box-shadow:0 0 1px 2px #999;
+      margin:-9px 0 0 95px;
+      position:absolute;
+      transform:rotate(130deg);
+      }
+      .podil1 {
+      width:6px;
+      height:40px;
+      background:red;
+      border-radius:10px;
+      margin:-15px 0 0 102px;
+      position:absolute;
+      transform:rotate(40deg);
+      }
+      .podil1-pow {
+      width:20px;
+      height:10px;
+      background:red;
+      border-radius:10px;
+      margin:10px 0 0 90px;
+      position:absolute;
+      }
+      .down-tube{
+      width:120px;
+      height:7px;
+      background:#cc0000;
+      transform:rotate(120deg);
+      margin:-50px 0 0 110px;
+      transform:rotate(140deg);
+      border-radius:50px;
+      }
+       #ring-2 {
+      width:90px;
+      height:90px;
+      border-radius:50px;
+      margin:-50px 0 0 200px;
+      box-shadow:0 0 1px 8px #000;
+      }
+      .gola-2{
+      width:20px;
+      height:20px;
+      background-color:green;
+      border-radius:10px;
+      margin:-55px 0 0 235px;
+      }
+      .tly-a{
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 200px;
+      }
+      .tly-b {
+      width:90px;
+      box-shadow:0 0 1px 1px black;
+      margin:-9px 0 0 200px;
+      transform:rotate(30deg);
+      }
+
+      .tly-c {
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 200px;
+      transform:rotate(155deg);
+      }
+      .tly-d{
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 200px;
+      transform:rotate(60deg);
+      }
+      .tly-e{
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 200px;
+      transform:rotate(130deg);
+      }
+      .tly-f{
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 200px;
+      transform:rotate(80deg);
+      }
+      .tly-g {
+      width:90px;
+      box-shadow:0 0 1px 1px #000;
+      margin:-9px 0 0 200px;
+      transform:rotatez(110deg);
+      }
+
+      .frame{
+      width:120px;
+      height:7px;
+      background:#cc0000;
+      border-radius:50px;
+      transform:rotate(180deg);
+      margin:-60px 0 0 90px;
+      }
+
+      .frok{
+      width:120px;
+      height:7px;
+      background:#cc0000;
+      transform:rotate(70deg);
+      margin:20px 0 0 160px;
+      }
+
+      .sheet {
+      width:40px;
+      height:20px;
+      background:#00c;
+      transform:perspective(90deg) rotate(70deg);
+      margin:-60px 0 0 70px;
+      position:absolute;
+      border-radius:30px 80px;
+      }
+
+      .handle {
+      width:40px;
+      height:7px;
+      background:silver;
+      transform: rotate(35deg);
+      margin:-60px 0 0 182px;
+      position:absolute;
+      border-radius:30px 80px;
+      }
+
+      .handlep {
+      width:25px;
+      height:7px;
+      background:#000;
+      transform: rotate(0deg);
+      margin:-70px 0 0 165px;
+      position:absolute;
+      border-radius:30px 80px;
+      }
+      .handlepp {
+      width:25px;
+      height:7px;
+      background:#000;
+      transform: rotate(0deg);
+      margin:-50px 0 0 190px;
+      position:absolute;
+      border-radius:30px 80px;
+      }
+
+      .cnt {
+      width:5px;
+      height:5px;
+      background:#f00;
+      transform: rotate(0deg);
+      margin:-63px 0 0 195px;
+      position:absolute;
+      border-radius:50px;
+      }
+      .cont {
+      font-size:4px;
+      color:#fff;
+      transform:rotate(-39deg);
+      margin:-43px 0 0 130px;
+      font-style:italic;
+      font-weight:bolder;
+      }
+      .tly-1,.tly-2,.tly-3,
+      .tly-4,.tly-5,.tly-6,.tly-7,
+      .tly-a,.tly-b,.tly-c,
+      .tly-d,.tly-e,.tly-f,.tly-g
+      {
+      animation:eot 1219s linear infinite;
+      }      @keyframes eot{
+      50%{transform:rotatez(57666deg);}
+      	}
+
+      .tl1,.tl2, .tl3 	{
+      	animation:eo 1219s linear infinite;
+      	}
+      	@keyframes eo{
+      	50%{transform:rotatez(15666deg);}
+      	}
+      	.bg {
+      	position:relative;
+
+      	}
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <div id="ring_1"></div>
+      <div class="gola_1"></div>
+      <div class="tly-1"></div>
+      <div class="tly-2"></div>
+      <div class="tly-3"></div>
+      <div class="tly-4"></div>
+      <div class="tly-5"></div>
+      <div class="tly-6"></div>
+      <div class="tly-7"></div>
+
+      <div>
+        <div id="ring-2"></div>
+        <div class="gola-2"></div>
+        <div class="tly-a"></div>
+        <div class="tly-b"></div>
+        <div class="tly-c"></div>
+        <div class="tly-d"></div>
+        <div class="tly-e"></div>
+        <div class="tly-f"></div>
+        <div class="tly-g"></div>
+
+        <div class="s-stays"></div>
+        <div class="chain-stays"></div>
+        <div class="sheet-tube"></div>
+        <div class="sheet-tube-small"></div>
+        <div id="drm"></div>
+        <div class="main-tl"></div>
+
+        <div class="tl"></div>
+        <div class="tl1"></div>
+        <div class="tl2"></div>
+        <div class="tl3"></div>
+        <div class="tl4"></div>
+        <div class="tl5"></div>
+        <div class="podil1"></div>
+        <div class="podil1-pow"></div>
+        <div class="down-tube"></div>
+        <div class="frame"></div>
+        <div class="frok"></div>
+        <div class="sheet"></div>
+        <div class="handle"></div>
+        <div class="handlep"></div>
+        <div class="handlepp"></div>
+        <div class="cnt"></div>
+        <div class="cont">Hridesh</div>
+      </div>
+    </div>
+  </body>
+</html>
